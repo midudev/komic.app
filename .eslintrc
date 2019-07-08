@@ -1,6 +1,7 @@
 {
   "extends": [
       "standard",
+      "standard-react",
       "prettier"
     ],
   "parser": "babel-eslint",
@@ -9,7 +10,7 @@
     "node": true,
     "es6": true
   },
-  "plugins": ["babel", "react", "prettier"],
+  "plugins": ["react", "prettier"],
   "settings": {
     "react": {
       "pragma": "h",
@@ -27,6 +28,7 @@
     "no-empty": 0,
     "semi": ["error", "never"],
     "keyword-spacing": 2,
+    "react/prop-types": 0,
     "react/no-string-refs": 2,
     "react/no-find-dom-node": 2,
     "react/no-is-mounted": 2,
