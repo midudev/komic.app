@@ -1,0 +1,100 @@
+#app {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  max-width: 800px;
+  min-height: 100vh;
+}
+
+@font-face {font-family: "Mouse";
+    src: url("//db.onlinewebfonts.com/t/ea190e72b8a91dc5ff8b8ef953bb1e9f.eot");
+    src: url("//db.onlinewebfonts.com/t/ea190e72b8a91dc5ff8b8ef953bb1e9f.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ea190e72b8a91dc5ff8b8ef953bb1e9f.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/ea190e72b8a91dc5ff8b8ef953bb1e9f.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/ea190e72b8a91dc5ff8b8ef953bb1e9f.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/ea190e72b8a91dc5ff8b8ef953bb1e9f.svg#Mouse") format("svg");
+}
+
+.bubble {
+  font-family: 'Mouse', serif;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  padding: 5px 5px 0 5px;
+  box-shadow:
+    0 -3px #fff,
+    0 -6px #000,
+    3px 0 #fff,
+    3px -3px #000,
+    6px 0 #000,
+    0 3px #fff,
+    0 6px #000,
+    -3px 0 #fff,
+    -3px 3px #000,
+    -6px 0 #000,
+    -3px -3px #000,
+    3px 3px #000,
+    3px 9px #ccc,
+    6px 6px #ccc,
+    9px 3px #ccc;
+  box-sizing: border-box;
+}
+
+.bubble::before,
+.bubble::after {
+  content: '';
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  left: 25%;
+}
+
+.bubble::after {
+  background: #fff;
+  width: 9px;
+  height: 3px;
+  bottom: -14px;
+  margin-left: 6px;
+  box-shadow:
+    -3px 0 #000,
+    3px 0 #000,
+    3px 3px #fff,
+    0px 3px #000,
+    6px 3px #000,
+    9px 3px #ccc,
+    3px 6px #000,
+    6px 6px #000,
+    9px 6px #ccc,
+    6px 9px #ccc;
+}
+
+.bubble::before {
+  width: 15px;
+  height: 8px;
+  background: #fff;
+  bottom: -11px;
+  border-left: 3px solid #000;
+  border-right: 3px solid #000;
+}
+
+button {
+  background: #209cee;
+  box-shadow: 0px -3px #000, -3px 0 #000, 3px 0 #000, 0px 3px #000, 6px 3px #ccc, 2px 6px #ccc, 3px 6px #ccc, -1px 0 #000;
+  border: 0;
+  color: #fff;
+  font-family: 'Mouse', serif;
+  text-transform: uppercase;
+  padding: 2px 12px;
+}
+
+button span {
+  line-height: 20px;
+  display: inline-block;
+  margin-bottom: -4px;
+  font-size: 14px;
+}
