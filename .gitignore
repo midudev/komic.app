@@ -70,3 +70,5 @@ dist
 
 # Firebase stuff
 .firebase
+
+package-lock.json
