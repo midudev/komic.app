@@ -1,8 +1,8 @@
-# komik.app
+# komik.app 🗯️
 Comic bubbles without hassle
 
 ## TODO
-- [ ] Add Download functionality
+- [x] Add Download functionality
 - [ ] Add Copy to Clipboard button.
 - [ ] Let user enable/disable text-transform uppercase.
 - [ ] Let user change spike direction.
