@@ -1,4 +1,5 @@
 import {h} from 'preact'
+import Link from './Link'
 
 export default () => (
   <div className="github-wrapper">
