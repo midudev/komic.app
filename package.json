@@ -12,7 +12,7 @@
     "downloadjs": "1.4.7",
     "file-drop-element": "0.2.0",
     "html-to-image": "0.1.1",
-    "preact": "10.2.1"
+    "preact": "10.3.1"
   },
   "keywords": [],
   "author": "",
@@ -20,14 +20,14 @@
   "devDependencies": {
     "babel-eslint": "10.0.3",
     "eslint": "6.8.0",
-    "eslint-config-prettier": "6.9.0",
+    "eslint-config-prettier": "6.10.0",
     "eslint-config-standard": "14.1.0",
     "eslint-config-standard-react": "9.2.0",
-    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-import": "2.20.1",
     "eslint-plugin-node": "11.0.0",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-react": "7.18.0",
+    "eslint-plugin-react": "7.18.3",
     "eslint-plugin-standard": "4.0.1",
     "parcel-bundler": "1.12.4"
   }
