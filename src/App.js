@@ -4,6 +4,7 @@ import {useRef, useState, useEffect} from 'preact/hooks'
 import 'file-drop-element'
 import {FloopyIcon} from './components/Icons'
 import Footer from './components/Footer'
+import GitHub from './components/GitHub'
 
 export default function App () {
   const dropTargetRef = useRef()
@@ -113,8 +114,7 @@ export default function App () {
           <img ref={imgRef} hidden src='' />
           <div id="result-bubble">
             <div autoFocus className="bubble" contentEditable>
-              <span>HEY! 🙋‍♀️ MAKE YOUR OWN SPEECH BUBBLE!</span>
-              <span id="cursor">|</span>
+              <span>HEY! WRITE HERE YOUR CONTENT! ✍️ </span>
             </div>
           </div>
         </div>
@@ -122,10 +122,11 @@ export default function App () {
       <section id="actions">
         <button onClick={downloadImage}>
           <FloopyIcon />
-          <span>Save Img!</span>
+          <span>DOWNLOAD IMG</span>
         </button>
       </section>
       <Footer />
+      <GitHub />
     </file-drop>
   )
 }
